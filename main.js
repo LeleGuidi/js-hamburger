@@ -1,6 +1,6 @@
 //Creare variabili per richiamare gli elementi interessati (icona menu, nav e icona X)
 const openMenu = document.getElementById(`open-menu`);
-const menu = document.getElementById(`hamburger_menu`);
+const menu = document.getElementsByClassName(`hamburger-menu`)[0];
 const closeMenu = document.getElementById(`close-menu`);
 console.log(openMenu);
 console.log(menu);
